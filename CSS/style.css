@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(180deg, teal, lightseagreen, navy); /*cor de fundo do site*/
+    font-size: Arial; /*fonte de texto*/
+    color: white; /*cor da fonte de texto*/
+}
+
+header{
+    background-color: black;
+    margin: 20px 0px 50px;/*espaçamento externo*/
+    padding: 10px 20px; /*espaçamento interno*/
+    display: flex; /* flex-box, grid-display e display-grid serve para posicionar os elementos*/
+    flex-direction: column; /*row = organiza em linhas. row-reverse = alinha em linhas só que espelhadamente. column = alinha em colunas. column-reverse = alinha em colunas espelhadamente.*/
+    align-items: center;
+}
+
+header img{
+   border-radius: 10%;
+}
+
+header ul{
+    text-transform: uppercase; /*trasforma as letras do header em maiuscula ou minuscula*/
+}
+
+header nav li{
+    display: inline-block; /*alinha a lista na mesma linha */
+    padding: 20px;
+}
+
+header nav li:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+main h1{
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+main h3{
+    text-align: left;
+    margin: 20px;
+    color: black;
+}
+p{
+    text-align: justify;
+    padding: 0px 30px;
+}
+.infos{
+    display: flex;
+    padding: 30px;
+}
+.link_social img{
+    width: 110px;
+    padding: 10px 20px;
+}
+.hobbies{
+    text-align: left;
+    margin: 20px;
+}
+#foto{
+    padding: 20px;
+}
+.linguagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+.linguagens p {
+    flex-direction: column;
+}

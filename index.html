@@ -4,42 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <script src="./JS/script.js"></script>
-    <title>Meu Site Etec</title>
+    <title>Meu Site</title>
 </head>
 <body>
-    <img src="IMG/Imagem_02.jpg">
-        <ul>
-            <li>Sobre</li>
-            <li>Atividades</li>
-            <li>Hobbies</li>
-        </ul>
-    <h1>Raphael Queiroz Moreto</h1>
-        <img src="IMG/Imagem_01.jpg">
-            <p>Me chamo Raphael e tenho 20 anos de idade. Tenho o ensino médio completo e sou formado em Informática Essencial pelo instituto de ensino Microlins e no momento estou estudando Desenvolvimento de Sistemas na Etec de Embu das Artes.</p>
-            <p>Moro com meus pais e minha familia é composta por 5 pessoas: Pai, Mãe, 2 Irmãs e eu que sou o primogênito.</p>
-    <h3>Curiosidades</h3>
-        <p>Gosto muito de música. Em 2015 comecei a fazer aula de violão erudito, ficava 08H:00 por dia estudando em casa e praticando tudo que envolvia música. Após alguns anos sai da aula de violão e comecei a estudar violino, um dos diversos instrumentos que sou apaixonado e tenho interesse em tocar. Tive facilidade nas aulas teóricas, mas na pratrica era um desastre, nada que mais 08H:00 por dia não rresolvesse.</p>
-        <p>Mais tarde descobri a musculação e me apaixonei também. Fiz 6 meses de academia e tive que parar, pois, não tive como sustentar. Então comecei a fazer um curso tecnico Desenvolvimento de Sistema, com isso, pretendo me forma e trabalhar na área onde terei sustento para a academia e a música será um hobbie.</p>
-        <ul>
-            <li>Música</li>
-            <li>Musculação</li>
-            <li>Desenvolvimento de Sistema</li>
-        </ul>
-    <h3>informações</h3>
-        <ul>
-            <li>Telefone: (11) 99623-7372</li>
-            <li>E-mail:raphaelqmoreto@gmail.com</li>            
-        </ul>
-    <img src="IMG/Imagem_03.png">
-    <img src="IMG/Imagem_04.png">
-    <h3>O Que Estou Aprendendo?</h3>
-        <img src="IMG/Imagem_05.png">
-            <p>HTML</p>
-        <img src="IMG/Imagem_06.png">
-            <p>CSS</p>
-        <img src="IMG/Imagem_07.png">    
-            <p>JS</p>
+    
+    <header>
+        <img src="IMG/Imagem_02.jpg" alt="Foto do Raphael" width="170" height="180">
+            <nav>
+                <ul>
+                    <li>Sobre</li>
+                    <li>Atividades</li>
+                    <li>Hobbies</li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <h1>Raphael Queiroz Moreto</h1>
+        <div class="infos">
+                <div id="foto">
+                    <img src="IMG/Imagem_01.jpg" alt="Foto do Raphael" width="400" height="600">
+                </div>
+
+            <div>
+                <p>Me chamo Raphael e tenho 20 anos de idade. Tenho o ensino médio completo e sou formado em Informática Essencial pelo instituto de ensino Microlins e no momento estou estudando Desenvolvimento de Sistemas na Etec de Embu das Artes.</p>
+                <p>Moro com meus pais e minha familia é composta por 5 pessoas: Pai, Mãe, 2 Irmãs e eu que sou o primogênito.</p>
+
+            <h3>Curiosidades</h3>
+                <p>Gosto muito de música. Em 2015 comecei a fazer aula de violão erudito, ficava 08H:00 por dia estudando em casa e praticando tudo que envolvia música. Após alguns anos sai da aula de violão e comecei a estudar violino, um dos diversos instrumentos que sou apaixonado e tenho interesse em tocar. Tive facilidade nas aulas teóricas, mas na pratrica era um desastre, nada que mais 08H:00 por dia não rresolvesse.</p>
+                <p>Mais tarde descobri a musculação e me apaixonei também. Fiz 6 meses de academia e tive que parar, pois, não tive como sustentar. Então comecei a fazer um curso tecnico Desenvolvimento de Sistema, com isso, pretendo me forma e trabalhar na área onde terei sustento para a academia e a música será um hobbie.</p>
+        
+            <h3>informações</h3>
+                <ul class="hobbies">
+                    <li>Telefone: (11) 99761-2541</li>
+                    <li>E-mail:raphaelqmoreto@gmail.com</li>            
+                </ul>
+
+            <ul class="link_social">
+                <li><img src= "IMG/LogoLinkedin.png" alt="Logo LinkedIn"></li>
+                <li><img src="IMG/LogoGitHub.png" alt="Logo GitHub"></li>
+            </ul>
+            </div>
+        </div>
+
+        <h3>O Que Estou Aprendendo?</h3>
+            <div class="linguagens">
+                <img src="IMG/LogoHTML.png" alt="Logo HTML" width="210" height="210">
+
+                <img src="IMG/LogoCSS.png" alt="Logo CSS" width="210" height="210">
+                    
+                <img src="IMG/LogoJS.png" alt="Logo Java Script" width="210" height="210">    
+                  
+            </div>
+    </main>
 </body>
 </html>
